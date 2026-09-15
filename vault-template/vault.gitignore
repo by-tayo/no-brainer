@@ -1,0 +1,24 @@
+# --- Obsidian ---
+# Machine-specific UI state; churns on every pane move.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Plugin settings can hold secrets (API keys, private keys). Never commit.
+.obsidian/plugins/*/data.json
+
+# Plugin bundles are large and reinstallable from the community browser.
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/*.map
+.obsidian/plugins/*/obsidian_askpass.sh
+
+# Local caches
+.obsidian/cache
+.trash/
+
+# --- OS / sync noise ---
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+*.tmp
