@@ -6,7 +6,7 @@ A private, version-controlled knowledge base that runs entirely on one machine: 
 
 No cloud git host. No third-party sync service holding the notes. Nothing leaves the machine unless you explicitly configure an external remote or service.
 
-Now, I wanted to share y'all what I am doing behind the scenes, but basically this is the place of all my note taking and wanting to share my knowledge stack only.
+Now, I wanted to share y'all this because this stores important note taking and just here what I have to display as layout.
 
 ---
 
