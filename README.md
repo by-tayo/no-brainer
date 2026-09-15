@@ -245,6 +245,8 @@ And `.gitattributes`, or git warns about line endings on every file:
 
 Install from Community Plugins, then set a backup interval. It commits and pushes on a timer; with the vault root as repo root, it picks up every note.
 
+---
+
 ### 5. MCP layer
 
 Two plugins, stacked:
@@ -256,6 +258,7 @@ Point the MCP client at `http://localhost:27200` with the bearer token from the 
 
 > [!IMPORTANT]
 > Rotate both credentials if they were ever committed. Regenerating in the plugin settings invalidates the old value immediately, which is the actual fix. Scrubbing git history is optional once the key is dead.
+
 
 ## Vault structure
 
@@ -282,7 +285,12 @@ Folders are numbered because Obsidian's file explorer sorts alphabetically and o
 
 The gap between `50` and `90` is runway for future content sections.
 
+
+
 ### Maps of Content
+
+<img width="3837" height="2260" alt="image" src="https://github.com/user-attachments/assets/e2d6088c-22c7-45db-bb30-f79ef7af74a7" />
+
 
 A MOC is a note whose only job is linking other notes. A note lives in one folder but can be linked from any number of MOCs: folders answer *where is it filed*, MOCs answer *what does this connect to*. One MOC per section, all reachable from a `Home` note.
 
